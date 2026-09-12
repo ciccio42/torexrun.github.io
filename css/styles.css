@@ -10997,6 +10997,14 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+#mainNav .navbar-brand img {
+  height: 2.1rem;
+  width: auto;
+  display: block;
+}
+#mainNav .navbar-brand .logo-light {
+  display: none;
+}
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
@@ -11018,6 +11026,12 @@ body {
     padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
+  #mainNav .navbar-brand .logo-light {
+    display: block;
+  }
+  #mainNav .navbar-brand .logo-dark {
+    display: none;
+  }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
@@ -11034,6 +11048,12 @@ body {
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
+  }
+  #mainNav.navbar-shrink .navbar-brand .logo-light {
+    display: none;
+  }
+  #mainNav.navbar-shrink .navbar-brand .logo-dark {
+    display: block;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000;
@@ -11200,4 +11220,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+.footer .footer-logo {
+  height: 1.75rem;
+  width: auto;
 }
