@@ -11138,6 +11138,10 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
+.about-section .watch-hero {
+  max-width: 22rem;
+  width: 100%;
+}
 
 .projects-section {
   padding: 10rem 0;
