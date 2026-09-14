@@ -11081,6 +11081,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+  border-radius: 50rem;
 }
 
 .masthead {
@@ -11148,12 +11149,21 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+  border-radius: 1.5rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #0281a6;
+    border-radius: 0 1.5rem 1.5rem 0;
   }
+}
+.projects-section .project {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.projects-section img.rounded-4 {
+  border-radius: 1.5rem !important;
 }
 .projects-section .project-text {
   padding: 3rem;
@@ -11190,6 +11200,9 @@ body {
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #0281a6;
+  border-radius: 1.5rem;
+  background-color: #f8f9fb;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.06);
 }
 .contact-section .card .team-photo,
 .contact-section .card .team-photo-placeholder {
